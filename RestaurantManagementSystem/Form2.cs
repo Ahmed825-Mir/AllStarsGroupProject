@@ -19,7 +19,7 @@ namespace RestaurantManagementSystem
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("are you sure you want to logout?")
+            MessageBox.Show("are you sure you want to logout?");
             this.Close();
         }
 
