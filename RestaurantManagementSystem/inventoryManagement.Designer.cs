@@ -63,11 +63,11 @@
             // 
             this.inventoryGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.inventoryGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.inventoryGridView.Location = new System.Drawing.Point(92, 282);
+            this.inventoryGridView.Location = new System.Drawing.Point(60, 282);
             this.inventoryGridView.Name = "inventoryGridView";
             this.inventoryGridView.RowHeadersWidth = 51;
             this.inventoryGridView.RowTemplate.Height = 24;
-            this.inventoryGridView.Size = new System.Drawing.Size(621, 256);
+            this.inventoryGridView.Size = new System.Drawing.Size(821, 236);
             this.inventoryGridView.TabIndex = 1;
             this.inventoryGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.inventoryGridView_CellContentClick);
             // 
@@ -222,7 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1038, 541);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);

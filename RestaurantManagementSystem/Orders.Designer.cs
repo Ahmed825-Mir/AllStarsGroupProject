@@ -30,6 +30,11 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -52,11 +57,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -75,7 +76,8 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.label11);
@@ -89,13 +91,70 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.lblDosa);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.ForeColor = System.Drawing.Color.Black;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 782);
             this.panel3.TabIndex = 2;
             // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(34, 572);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(133, 24);
+            this.label13.TabIndex = 15;
+            this.label13.Text = "Beer";
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(34, 513);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(133, 24);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "Meat";
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(34, 462);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(133, 24);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Sea Food ";
+            // 
+            // label10
+            // 
+            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(34, 411);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(133, 24);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "Indo Chineese";
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(34, 356);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(133, 28);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Combos";
+            // 
             // label3
             // 
+            this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(34, 252);
@@ -106,6 +165,7 @@
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(34, 306);
@@ -124,6 +184,7 @@
             // 
             // lblBeverages
             // 
+            this.lblBeverages.BackColor = System.Drawing.Color.White;
             this.lblBeverages.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBeverages.ForeColor = System.Drawing.Color.Black;
             this.lblBeverages.Location = new System.Drawing.Point(34, 105);
@@ -134,6 +195,7 @@
             // 
             // lbl_Desserts
             // 
+            this.lbl_Desserts.BackColor = System.Drawing.Color.White;
             this.lbl_Desserts.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Desserts.ForeColor = System.Drawing.Color.Black;
             this.lbl_Desserts.Location = new System.Drawing.Point(34, 156);
@@ -144,6 +206,7 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(34, 203);
@@ -154,6 +217,7 @@
             // 
             // lblDosa
             // 
+            this.lblDosa.BackColor = System.Drawing.Color.White;
             this.lblDosa.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDosa.ForeColor = System.Drawing.Color.Black;
             this.lblDosa.Location = new System.Drawing.Point(34, 57);
@@ -165,7 +229,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.SlateGray;
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(200, 0);
             this.panel2.Name = "panel2";
@@ -174,7 +238,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.button3);
             this.panel4.Controls.Add(this.textBox3);
@@ -266,11 +330,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 56);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 57);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(488, 433);
+            this.dataGridView1.Size = new System.Drawing.Size(380, 382);
             this.dataGridView1.TabIndex = 0;
             // 
             // checkedListBox1
@@ -313,60 +377,21 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Selected Items";
             // 
-            // label9
+            // label14
             // 
-            this.label9.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(34, 356);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(133, 28);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Combos";
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(34, 411);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(133, 24);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Indo Chineese";
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(34, 462);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(133, 24);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Sea Food ";
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(34, 513);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(133, 24);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "Meat";
-            // 
-            // label13
-            // 
-            this.label13.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(34, 572);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(133, 24);
-            this.label13.TabIndex = 15;
-            this.label13.Text = "Beer";
+            this.label14.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(12, 9);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(100, 23);
+            this.label14.TabIndex = 16;
+            this.label14.Text = "Home";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(966, 782);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
@@ -419,5 +444,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label14;
     }
 }

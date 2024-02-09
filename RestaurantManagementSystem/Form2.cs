@@ -19,7 +19,8 @@ namespace RestaurantManagementSystem
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("are you sure you want to logout?")
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -49,6 +50,11 @@ namespace RestaurantManagementSystem
             Report report = new Report();
             report.Show();
             this.Close();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

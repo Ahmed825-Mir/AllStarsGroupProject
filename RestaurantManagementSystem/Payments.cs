@@ -24,7 +24,7 @@ namespace RestaurantManagementSystem
 
         private void label3_Click(object sender, EventArgs e)
         {
-                 Form2 form = new Form2();
+            Form2 form = new Form2();
             form.Show();
             this.Close();
 
