@@ -19,8 +19,11 @@ namespace RestaurantManagementSystem
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("are you sure you want to logout?");
-            this.Close();
+            DialogResult res = MessageBox.Show("Are you sure you want to Log out", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (res == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,6 +56,11 @@ namespace RestaurantManagementSystem
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }

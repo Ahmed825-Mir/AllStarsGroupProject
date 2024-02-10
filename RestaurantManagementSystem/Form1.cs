@@ -19,17 +19,24 @@ namespace RestaurantManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtUserName.Text == "Allstars" && txtPassword.Text == "123")
+            if(txtUserName.Text =="" || txtPassword.Text =="")
             {
-                new Form2().Show();
-                this.Hide();
+                MessageBox.Show("Enter Credentials");
             }
-            else
+            else 
             {
-                MessageBox.Show("The Username or Password you enetred is incorrect, try again");
-                txtUserName.Clear();
-                txtPassword.Clear();
-                txtUserName.Focus();
+                if (txtUserName.Text == "Allstars" && txtPassword.Text == "123")
+                {
+                    new Form2().Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("The Username or Password you enetred is incorrect, try again");
+                    txtUserName.Clear();
+                    txtPassword.Clear();
+                    txtUserName.Focus();
+                }
             }
         }
 
