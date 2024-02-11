@@ -64,5 +64,13 @@ namespace RestaurantManagementSystem
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            StaffManagement staffManagementForm;
+            staffManagementForm = new StaffManagement();
+            staffManagementForm.Show();
+            this.Close();
+        }
     }
 }
